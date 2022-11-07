@@ -1,0 +1,43 @@
+{
+  "name": "eslint-config-dataendure",
+  "version": "1.0.0",
+  "private": true,
+  "description": "DataEndure Shared ESLint Config",
+  "main": "lib/index.js",
+  "repository": "https://github.com/dataendure/eslint-config-dataendure",
+  "scripts": {
+    "compile": "tsc",
+    "lint": "eslint --ext .js,.ts ."
+  },
+  "dependencies": {
+    "eslint-config-standard-with-typescript": "^23.0.0"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "eslint": "^8.0.1",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "typescript": "*"
+  },
+  "devDependencies": {
+    "@types/eslint": "8.4.6",
+    "@types/js-yaml": "4.0.5",
+    "@types/node": "18.8.2",
+    "@types/npm-package-arg": "6.1.1",
+    "@types/semver": "7.3.12",
+    "@typescript-eslint/eslint-plugin": "5.39.0",
+    "eslint": "8.24.0",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-n": "15.3.0",
+    "eslint-plugin-promise": "6.0.1",
+    "tsconfigs": "^5.0.0",
+    "typescript": "4.8.4"
+  },
+  "files": [
+    "lib/index.js",
+    "lib/index.d.ts",
+    "lib/eslint-config-standard.js",
+    "lib/eslint-config-standard.d.ts"
+  ]
+}
