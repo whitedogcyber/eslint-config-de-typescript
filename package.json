@@ -7,6 +7,7 @@
   "repository": "https://github.com/dataendure/eslint-config-dataendure",
   "scripts": {
     "compile": "tsc",
+    "build": "tsc",
     "lint": "eslint --ext .js,.ts ."
   },
   "dependencies": {
