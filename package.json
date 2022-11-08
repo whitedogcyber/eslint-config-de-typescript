@@ -1,10 +1,10 @@
 {
-  "name": "eslint-config-dataendure",
+  "name": "eslint-config-de-typescript",
   "version": "1.0.0",
   "private": true,
-  "description": "DataEndure Shared ESLint Config",
+  "description": "DataEndure Shared ESLint Config for Typescript",
   "main": "lib/index.js",
-  "repository": "https://github.com/dataendure/eslint-config-dataendure",
+  "repository": "https://github.com/dataendure/eslint-config-de-typescript",
   "scripts": {
     "compile": "tsc",
     "build": "tsc",
