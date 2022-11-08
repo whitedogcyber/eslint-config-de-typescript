@@ -8,6 +8,7 @@
   "scripts": {
     "compile": "tsc",
     "build": "tsc",
+    "prepare": "tsc",
     "lint": "eslint --ext .js,.ts ."
   },
   "dependencies": {
